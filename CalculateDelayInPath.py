@@ -27,8 +27,8 @@ class Link:
             R = float(TransRate)
         L=PacketLength
  
-        #Lets Take a constant overhead of 128 bytes
-        OverHead=128*8
+        #Lets Take a constant overhead of 64 bytes
+        OverHead=64*8
         PropDelay=D/S
         TransDelay=L/R
         Delay=PropDelay+TransDelay+OverHead
